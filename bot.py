@@ -6,11 +6,10 @@ Token =os.environ.get("BOT_TOKEN",None)
 updater = Updater( Token ,use_context = True )
 
 def start(updater,context):
- updater.message.reply_text('''Hi iam welcome messanger bot 
-Add me to your group 
+ updater.message.reply_text('''Hi iam Official bot of fast move 😜
+You can't Add me to your group 😂
  
- Made with Love ❤️ by @lntechnical
-
+ Join our move channel ❤️ by @mrbhiman12
   ''')
 def help(updater,context):
  updater.message.reply_text("Add me to your group ")
